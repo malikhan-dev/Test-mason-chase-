@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mc2.CrudTest.Acceptance.Domain\Mc2.CrudTest.Acceptance.Domain.csproj" />
+    <ProjectReference Include="..\Mc2.CrudTest.Acceptance.Framework\Mc2.CrudTest.Acceptance.Framework.csproj" />
+    <ProjectReference Include="..\Mc2.CrudTest.Presentation.Application.Contract\Mc2.CrudTest.Presentation.Application.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
